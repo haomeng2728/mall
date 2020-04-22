@@ -8,7 +8,7 @@ import zju.hm.mall.nosql.elasticsearch.document.EsProduct;
 /**
  * 商品ES操作类
  */
-public interface EsProductRepository extends ElasticsearchRepository {
+public interface EsProductRepository extends ElasticsearchRepository<EsProduct, Long> {
 
     /**
      * 搜索查询

@@ -67,7 +67,7 @@ public class EsProductServiceImpl implements EsProductService {
                 esProduct.setId(id);
                 esProductList.add(esProduct);
             }
-            productRepository.delete(esProductList);
+            productRepository.deleteAll(esProductList);
         }
     }
 

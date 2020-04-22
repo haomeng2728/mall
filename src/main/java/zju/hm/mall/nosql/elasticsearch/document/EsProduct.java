@@ -1,6 +1,5 @@
 package zju.hm.mall.nosql.elasticsearch.document;
 
-import io.swagger.models.auth.In;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
